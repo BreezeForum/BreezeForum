@@ -58,15 +58,16 @@ use lithium\data\Connections;
 
 /**
  * Uncomment this configuration to use MySQL as your default database.
+ * @todo Build some kind of separate config file to avoid having hardcoded settings everywhere, for now is just fine   
  */
-// Connections::add('default', array(
-// 	'type' => 'database',
-// 	'adapter' => 'MySql',
-// 	'host' => 'localhost',
-// 	'login' => 'root',
-// 	'password' => '',
-// 	'database' => 'my_app',
-// 	'encoding' => 'UTF-8'
-// ));
+Connections::add('default', array(
+	'type' => 'database',
+	'adapter' => 'MySql',
+	'host' => 'localhost',
+	'login' => 'root',
+	'password' => '',
+	'database' => 'breezeForum',
+	'encoding' => 'UTF-8'
+));
 
 ?>
