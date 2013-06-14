@@ -51,7 +51,7 @@
  * application's classes and files.  You don't need to change this unless your webroot folder is
  * stored outside of your app folder.
  */
-define('LITHIUM_APP_PATH', dirname(dirname(__DIR__)));
+define('LITHIUM_APP_PATH', dirname(dirname(__DIR__ .'/bf/'))); // hardcoded todo make an external setting for this
 
 /**
  * This is the path to the class libraries used by your application, and must contain a copy of the

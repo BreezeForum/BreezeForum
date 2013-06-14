@@ -7,12 +7,5 @@
  * @license       http://opensource.org/licenses/bsd-license.php The BSD License
  */
 
-namespace app\controllers;
-
-class PageController extends \lithium\action\Controller {
-
-	public function index() 
-	{
-
-	}
-}
+ 
+echo '<pre>'. $data .'</pre>';

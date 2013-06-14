@@ -19,10 +19,7 @@
 use lithium\net\http\Router;
 use lithium\core\Environment;
 
-
-Router::connect('/', 'Page::index');
-Router::connect('/post', 'Post::index');
-Router::connect('/search', 'Search::index');
+Router::connect('/', 'Page::hello');
 
 
 /* if (!Environment::is('production')) {
