@@ -93,5 +93,3 @@ if (!Environment::is('production')) {
  * a top-down fashion.
  */
 Router::connect('/{:controller}/{:action}/{:args}');
-
-?>
