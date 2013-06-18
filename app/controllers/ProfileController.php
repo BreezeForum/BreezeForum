@@ -11,6 +11,6 @@ namespace app\controllers;
 
 use lithium\storage\Session;
 
-class PostController extends \lithium\action\Controller
+class ProfileController extends \lithium\action\Controller
 {
 }
